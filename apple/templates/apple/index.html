@@ -1,4 +1,5 @@
 {% extends "apple/base.html" %}
+{% load static %}
 
 {% block header %}
     <div class='jumbotron'>
@@ -15,4 +16,21 @@
         Whenever you learn something new about a topic, make an entry
         summarizing what you've learned.
     </h2>
+    <img src="{% static 'photo_2016-11-03_20-33-37.jpg' %}" alt="emil">
+    <h1>Visits: {{ visits }} </h1>
+    <p>Изучаем <mark>Питон вместе</mark></p>
+    <p>Django для своей работы использует модель <abbr title="Model-View-Conrtoller">MVC</abbr></p>
+    <blockquote>
+        <p>Лучше работать в it-сфере чем е******** на завод</p>
+        <footer>Игорь К.</footer>
+    </blockquote>
+    <p>В it-сфере крутится <mark>много</mark> денег</p>
+    <br>
+    <p>Чтобы начать, необходимо ввести команду в терминал:
+        <br><code>pip install django</code>
+    </p>
+    <p class="text-info">По завершению установки вам отобразится:
+        <br><span class="text-success">Django installed successfully</span>
+    </p>
+
 {% endblock content %}

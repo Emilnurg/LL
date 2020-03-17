@@ -6,16 +6,47 @@ from django.contrib.auth.decorators import login_required
 from .models import Topic, Entry
 from .forms import TopicForm, EntryForm
 
+from datetime import datetime
+
 
 # Create your views here.
 def index(request):
     """Домашняя страница приложения apple"""
-    return render(request, 'apple/index.html')
+    # request.session.set_test_cookie()
+
+    response = render(request, 'apple/index.html')
+    visits = int(request.COOKIES.get('visits', '0'))
+    context = {'visits': visits}
+    response = render(request, 'apple/index.html', context)
+    # if request.COOKIES.keys() in ['last_visit']:
+    #     last_visit = request.COOKIES['last_visit']
+    #     # last_visit_time = datetime.strptime(last_visit[:-7], "%Y-%m-%d %H:%M:%S")
+    #
+    #     # if (datetime.now() - last_visit_time).days < 100:
+    #     #    response.set_cookie('last_visit', datetime.now())
+    #
+    # response.set_cookie('visits', visits + 1)
+
+    # else:
+    #     response.set_cookie('last_visit', datetime.now())
+
+    if request.session.get('last_visit'):
+        last_visit_time = request.session.get('last_visit')
+        visits = request.session.get('visits', 0)
+        request.session['visits'] = visits + 1
+        request.session['last_visit'] = str(datetime.now())
+    else:
+        request.session['visits'] = 1
+        request.session['last_visit'] = str(datetime.now())
+    return response
 
 
 @login_required
 def topics(request):
     """Список тем"""
+    # if request.session.test_cookie_worked():
+    #     print(">>>It's Worked!!!")
+    #     request.session.delete_test_cookie()
     topics = Topic.objects.filter(owner=request.user).order_by('date_added')
     context = {'topics': topics}
     return render(request, 'apple/topics.html', context)
