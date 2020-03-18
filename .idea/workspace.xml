@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="29e79281-8afb-4bae-a1e2-51e9645fa02b" name="Default Changelist" comment="" />
+    <list default="true" id="29e79281-8afb-4bae-a1e2-51e9645fa02b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apple/templates/apple/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/apple/templates/apple/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,7 +57,7 @@
       <recent name="C:\Users\Эмиль\YandexDisk\Work\learning_logs\users\templates\users" />
     </key>
   </component>
-  <component name="RunManager" selected="Django server.1">
+  <component name="RunManager" selected="Django server.learning_logs">
     <configuration name="populate_rango" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="learning_logs" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -200,7 +203,9 @@
       <workItem from="1584461105900" duration="1767000" />
       <workItem from="1584473043088" duration="1739000" />
       <workItem from="1584474853084" duration="671000" />
-      <workItem from="1584475541608" duration="1445000" />
+      <workItem from="1584475541608" duration="527000" />
+      <workItem from="1584480981975" duration="1423000" />
+      <workItem from="1584553729996" duration="1112000" />
     </task>
     <servers />
   </component>
