@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="29e79281-8afb-4bae-a1e2-51e9645fa02b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apple/templates/apple/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/apple/templates/apple/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +37,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/prospect" />
+    <property name="last_opened_file_path" value="$USER_HOME$/python-getting-started" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -57,7 +56,7 @@
       <recent name="C:\Users\Эмиль\YandexDisk\Work\learning_logs\users\templates\users" />
     </key>
   </component>
-  <component name="RunManager" selected="Django server.learning_logs">
+  <component name="RunManager" selected="Django server.1">
     <configuration name="populate_rango" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="learning_logs" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -205,7 +204,7 @@
       <workItem from="1584474853084" duration="671000" />
       <workItem from="1584475541608" duration="527000" />
       <workItem from="1584480981975" duration="1423000" />
-      <workItem from="1584553729996" duration="1112000" />
+      <workItem from="1584553729996" duration="1808000" />
     </task>
     <servers />
   </component>
@@ -234,11 +233,11 @@
     </state>
     <state x="241" y="300" key="EnvironmentVariablesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583409640646" />
     <state x="321" y="404" key="EnvironmentVariablesDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1583436923834" />
-    <state x="401" y="402" key="FileChooserDialogImpl" timestamp="1583436546531">
+    <state x="401" y="402" key="FileChooserDialogImpl" timestamp="1584555112099">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="690" y="219" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1582042952286" />
-    <state x="401" y="402" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1583436546531" />
+    <state x="401" y="402" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1584555112099" />
     <state width="2505" height="558" key="GridCell.Tab.0.bottom" timestamp="1584475523642">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
