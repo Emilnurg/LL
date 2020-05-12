@@ -1,5 +1,6 @@
 {% extends "apple/base.html" %}
 {% load static %}
+{% load trans from i18n %}
 
 {% block header %}
     <div class='jumbotron'>
@@ -8,6 +9,7 @@
 {% endblock header %}
 
 {% block content %}
+    <a href="/login/vk-oauth2"><img src="/static/lvk.png" class="avatar-3" data-toggle="tooltip" title="{% trans 'Login via VKontakte' %}"></a>
     <h2>
         <a href="{% url 'users:register' %}">Register an account</a> to make
         your own Learning Log, and list the topics you're learning about.

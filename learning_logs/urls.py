@@ -22,6 +22,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include(('apple.urls', 'apple'))),
     path('', include(('users.urls', 'users'))),
+    path('', include('social_django.urls')),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
 '''if settings.DEBUG:
