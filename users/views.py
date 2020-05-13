@@ -8,7 +8,16 @@ from django.contrib.auth.models import User
 import vk_requests
 
 
-# Create your views here.
+@login_required
+def vk_friends_list(request):
+    api = vk_requests.create_api(service_token="15c6cc8115c6cc8115c6cc81ff15b72daf115c615c6cc814b7ddf741c8620f0819633cc")
+    friends = api.friends.get(user_id=80692356, fields=['nickname', 'city'])
+    for i in friends['items']:
+        friend = [i['id'], i['first_name'], i['last_name']]
+    context = {'friend': friend}
+    return render(request, 'users/profile.html', context)
+
+
 def logout_view(request):
     logout(request)
     return HttpResponseRedirect(reverse('apple:index'))
@@ -35,11 +44,4 @@ def profile(request):
     user = User.objects.get(username=request.user)
 
     context = {'user': user}
-    return render(request, 'users/profile.html', context)
-
-
-def vk_friends_list(request):
-    api = vk_requests.create_api(service_token="15c6cc8115c6cc8115c6cc81ff15b72daf115c615c6cc814b7ddf741c8620f0819633cc")
-    friends = api.friends.get(user_id=80692356, fields=['nickname', 'city'])
-    context = {'friends': friends}
     return render(request, 'users/profile.html', context)

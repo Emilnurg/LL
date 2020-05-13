@@ -16,15 +16,15 @@
             <h2>{{ user.username }}</h2>
             <p>Email: {{ user.email }}</p>
             <ul>
-                {% for friend in friends %}
+{#                {% for friend in friends %}#}
                 <li>
                     <h3>
                         {{ friend }}
                     </h3>
                 </li>
-            {% empty %}
+{#            {% empty %}#}
                 <li>No friends (:.</li>
-            {% endfor %}
+{#            {% endfor %}#}
             </ul>
             <h1>Friends: {{ friends }}</h1>
             {% if userprofile %}
