@@ -15,6 +15,17 @@
         <h1> Profile <h1> <br/>
             <h2>{{ user.username }}</h2>
             <p>Email: {{ user.email }}</p>
+            <ul>
+                {% for friend in friends %}
+                <li>
+                    <h3>
+                        {{ friend }}
+                    </h3>
+                </li>
+            {% empty %}
+                <li>No friends (:.</li>
+            {% endfor %}
+            </ul>
             <h1>Friends: {{ friends }}</h1>
             {% if userprofile %}
                 <p>Website: <a href="{{ userprofile.website }}">{{ userprofile.website }}</a></p>
