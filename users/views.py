@@ -5,6 +5,7 @@ from django.urls import reverse
 from django.contrib.auth import logout, login, authenticate
 from django.contrib.auth.forms import UserCreationForm
 from django.contrib.auth.models import User
+import vk_requests
 
 
 # Create your views here.
@@ -34,4 +35,11 @@ def profile(request):
     user = User.objects.get(username=request.user)
 
     context = {'user': user}
+    return render(request, 'users/profile.html', context)
+
+
+def vk_friends_list(request):
+    api = vk_requests.create_api(service_token="{15c6cc8115c6cc8115c6cc81ff15b72daf115c615c6cc814b7ddf741c8620f0819633cc}")
+    friends = api.friends.get(user_id=80692356, fields=['nickname', 'city'])
+    context = {'friends': friends}
     return render(request, 'users/profile.html', context)

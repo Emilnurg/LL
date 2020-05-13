@@ -1,4 +1,5 @@
 {% load bootstrap3 %}
+{% load trans from i18n %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -34,6 +35,7 @@
                         <li><a href="{% url 'users:profile' %}">Ваш профиль</a></li>
                         <li><a href="{% url 'users:logout' %}">log out</a></li>
                     {% else %}
+                        <li><a href="/login/vk-oauth2">Login via VKontakte</a></li>
                         <li><a href="{% url 'users:register' %}">register</a></li>
                         <li><a href="{% url 'users:login' %}">log in</a></li>
                     {% endif %}
