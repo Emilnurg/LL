@@ -10,11 +10,12 @@ import vk_requests
 
 @login_required
 def vk_friends_list(request):
+    result = []
     api = vk_requests.create_api(service_token="15c6cc8115c6cc8115c6cc81ff15b72daf115c615c6cc814b7ddf741c8620f0819633cc")
     friends = api.friends.get(user_id=80692356, fields=['nickname', 'city'])
     for i in friends['items']:
-        friend = [i['id'], i['first_name'], i['last_name']]
-    context = {'friend': friend}
+        result.extend([i['id'], i['first_name'], i['last_name']])
+    context = {'result': result}
     return render(request, 'users/profile.html', context)
 
 
