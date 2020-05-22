@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="29e79281-8afb-4bae-a1e2-51e9645fa02b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apple/templates/apple/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/apple/templates/apple/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/templates/users/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/users/templates/users/profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -220,7 +224,14 @@
       <workItem from="1589395262936" duration="708000" />
       <workItem from="1589405493302" duration="1126000" />
       <workItem from="1589407301029" duration="1814000" />
-      <workItem from="1589658119238" duration="268000" />
+      <workItem from="1589658119238" duration="1766000" />
+      <workItem from="1589662494523" duration="420000" />
+      <workItem from="1589664746066" duration="35000" />
+      <workItem from="1589664883930" duration="1860000" />
+      <workItem from="1589668041158" duration="978000" />
+      <workItem from="1589894958685" duration="1329000" />
+      <workItem from="1589917664077" duration="36000" />
+      <workItem from="1590142698239" duration="933000" />
     </task>
     <servers />
   </component>
@@ -262,31 +273,31 @@
     </state>
     <state x="241" y="300" key="EnvironmentVariablesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583409640646" />
     <state x="321" y="404" key="EnvironmentVariablesDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1583436923834" />
-    <state x="401" y="402" key="FileChooserDialogImpl" timestamp="1589317834977">
+    <state x="401" y="402" key="FileChooserDialogImpl" timestamp="1589917698145">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="690" y="219" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1582042952286" />
-    <state x="401" y="402" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1589317834977" />
-    <state width="2505" height="316" key="GridCell.Tab.0.bottom" timestamp="1589407117161">
+    <state x="401" y="402" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1589917698145" />
+    <state width="2505" height="315" key="GridCell.Tab.0.bottom" timestamp="1589669710137">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="853" height="146" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583540152205" />
-    <state width="2505" height="316" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1589407117161" />
-    <state width="2505" height="316" key="GridCell.Tab.0.center" timestamp="1589407117161">
+    <state width="2505" height="315" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1589669710137" />
+    <state width="2505" height="315" key="GridCell.Tab.0.center" timestamp="1589669710136">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="853" height="146" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583540152205" />
-    <state width="2505" height="316" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1589407117161" />
-    <state width="2505" height="316" key="GridCell.Tab.0.left" timestamp="1589407117160">
+    <state width="2505" height="315" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1589669710136" />
+    <state width="2505" height="315" key="GridCell.Tab.0.left" timestamp="1589669710136">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="853" height="146" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583540152205" />
-    <state width="2505" height="316" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1589407117160" />
-    <state width="2505" height="316" key="GridCell.Tab.0.right" timestamp="1589407117161">
+    <state width="2505" height="315" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1589669710136" />
+    <state width="2505" height="315" key="GridCell.Tab.0.right" timestamp="1589669710137">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="853" height="146" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583540152205" />
-    <state width="2505" height="316" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1589407117161" />
+    <state width="2505" height="315" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1589669710137" />
     <state width="1864" height="326" key="GridCell.Tab.1.bottom" timestamp="1582848969232">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -312,11 +323,6 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1288" height="708" key="XDebugger.FullValuePopup/0.0.2560.1400@0.0.2560.1400" timestamp="1589391865069" />
-    <state x="121" y="409" key="com.intellij.ide.util.TipDialog" timestamp="1581088480817">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="91" y="304" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580994427245" />
-    <state x="121" y="409" key="com.intellij.ide.util.TipDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1581088480817" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/learning_logs$python_repos.coverage" NAME="python_repos Coverage Results" MODIFIED="1582847617519" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/repos" />
