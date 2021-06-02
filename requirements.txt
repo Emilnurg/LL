@@ -27,6 +27,6 @@ social-auth-app-django==3.1.0
 social-auth-core==3.3.3
 soupsieve==2.0
 sqlparse==0.3.1
-urllib3==1.25.9
+urllib3==1.26.5
 vk-api==11.8.0
 vk-requests==1.2.0
